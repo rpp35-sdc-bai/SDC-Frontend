@@ -67,7 +67,7 @@ class Question extends React.Component {
 
    render() {
       return (
-         <Card outlined={true} className='questionCard'>
+         <Card outlined={"true"} className='questionCard'>
             <div className='questionRow_1'>
                <Typography
                   align='left'

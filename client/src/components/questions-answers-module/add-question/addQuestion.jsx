@@ -49,8 +49,8 @@ class AddQuestion extends React.Component {
          <>
             <Card
                elevation={24}
-               rounded={true}
-               outlined={true}
+               rounded={"true"}
+               outlined={"true"}
                className='addQuestion'
             >
                <form

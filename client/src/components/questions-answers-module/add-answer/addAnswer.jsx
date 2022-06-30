@@ -69,8 +69,8 @@ class AddAnswer extends React.Component {
       return (
          <Card
             elevation={24}
-            rounded={true}
-            outlined={true}
+            rounded={"true"}
+            outlined={"true"}
             className='addAnswerCard'
          >
             <div className='addAnswerTitleBar'>

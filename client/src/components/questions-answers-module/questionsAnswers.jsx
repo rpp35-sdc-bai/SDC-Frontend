@@ -56,11 +56,11 @@ class QuestionsAnswers extends React.Component {
       });
    }
 
-   getDerivedStateFromProps(props, state) {
-      if (props.currQuestion_id !== state.currProductID) {
-         console.log('getDerivedStateFromProps invoked');
-      }
-   }
+   // getDerivedStateFromProps(props, state) {
+   //    if (props.currQuestion_id !== state.currProductID) {
+   //       console.log('getDerivedStateFromProps invoked');
+   //    }
+   // }
 
    changeQAState(prop, value) {
       this.setState({ [prop]: value });
@@ -212,8 +212,8 @@ class QuestionsAnswers extends React.Component {
       return (
          <Paper
             elevation={24}
-            rounded={true}
-            outlined={true}
+            rounded={"true"}
+            outlined={"true"}
             className='questionsAnwers'
          >
             <Typography

@@ -51,7 +51,7 @@ const ReviewTile = ({ review, handleReport }) => {
    useEffect(() => {
       if (clickCount <= 1) {
          axios({
-            url: '/reviews/helpful',
+            url: `${__API__}/reviews/helpful`,
             method: 'post',
             data: {
                review_id: review.review_id,

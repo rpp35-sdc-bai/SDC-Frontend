@@ -12,7 +12,7 @@ module.exports = merge(common, {
       hot: true,
       static: DIST_DIR,
       allowedHosts: 'auto',
-      port: 3000,
+      port: 3030,
       proxy: {
          '/api': {
             //rewrites request calls to /api/dest, so all requests to server must be made to /api/dest
