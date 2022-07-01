@@ -51,7 +51,7 @@ const ProductInformation = ({
          <Typography data-testid='product-info-name' variant='h3'>
             {name}
          </Typography>
-         {sale_price ? (
+         {sale_price !== '0' ? (
             <>
                <Typography variant='subtitle2'>{sale_price}</Typography>
                <Typography
